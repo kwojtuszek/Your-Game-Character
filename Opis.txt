@@ -1,0 +1,34 @@
+Projekt Wojtuszek
+
+
+Temat: Strona do przechowywwania informacji o przedmiotach w grze oraz do zliczania poziomu potęgi postaci (item lvl)
+
+
+W aplikacji przewidziałem 3 role:
+
+-użytkownik: dodawanie postaci, edycja postaci, edycja ekwipunku, usuwanie postaci, przeglądanie wszystkich przedmiotów
+
+-moderator: wszystko to co użytkownik + edycja przedmiotów oraz dodawania nowych przedmiotów
+
+-administrator: wszystko co moderator + nadawanie, edytowanie roli użytkowników
+
+
+Funkcjonalność:
+
+- rejestracja użytkowników z walidacją (nie może być 2 użytkowników o tym samym loginie)
+
+- hashowanie haseł (base_64)
+
+- dodawania postaci i jej ekwipunku z walidacją oraz liczenie poziomu potęgi (nie może być 2 postaci o tym samym imieniu)
+
+- wyświetlanie postaci, edycja postaci z walidacja, edycja ekwipunku postaci z obliczaniem potęgi, usuwanie postaci z ajax
+
+- dodawanie przedmiotów z walidacją (nie może być 2 przedmiotówo tej samej nazwie)
+
+- edycja przedmiotów wraz z obliczeniem nowego poziomu potęgi postaci, która ma przypisany edytowany przedmiot
+
+- wyszukiwanie/filtrowanie przedmiotów po nazwie z ajax, stronicowanie listy przedmiotów
+
+- sortowanie listy przedmiotów przy przypisywaniu ich do postaci
+
+- nadawanie/edycja roli użytkowników
